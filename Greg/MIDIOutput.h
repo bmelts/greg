@@ -26,7 +26,6 @@
 #include "MIDIUtils.h"
 #include "Output.h"
 
-#include <CoreServices/CoreServices.h> // for require_noerr
 #include <AudioUnit/AudioUnit.h>
 #include <AudioToolbox/AudioToolbox.h> // for AUGraph
 
