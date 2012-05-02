@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A98464631550941B0023389F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98464621550941B0023389F /* CoreFoundation.framework */; };
+		A9A8A69C1528F404004AD360 /* GregProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9A8A69B1528F404004AD360 /* GregProcessor.cpp */; };
+		A9A8A6A01528F684004AD360 /* Output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9A8A69F1528F684004AD360 /* Output.cpp */; };
+		A9A8A6A21528FCFE004AD360 /* Processor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9A8A6A11528FCFE004AD360 /* Processor.cpp */; };
+		A9A8A6A31528FD3F004AD360 /* EchoProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9ECCF3F14829BF6002C5CAE /* EchoProcessor.cpp */; };
+		A9CD6A3C152AAF9800F0222A /* Markov.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9CD6A3B152AAF9800F0222A /* Markov.cpp */; };
+		A9ECCF3114829BE4002C5CAE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9ECCF3014829BE4002C5CAE /* main.cpp */; };
+		A9ECCF4214829BF6002C5CAE /* MIDIUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9ECCF3B14829BF6002C5CAE /* MIDIUtils.cpp */; };
+		A9ECCF4314829BF6002C5CAE /* MIDIInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9ECCF3D14829BF6002C5CAE /* MIDIInput.cpp */; };
+		A9ECCF4514829BF6002C5CAE /* MIDIOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9ECCF4114829BF6002C5CAE /* MIDIOutput.cpp */; };
+		A9ECCF4B14829C02002C5CAE /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9ECCF4614829C02002C5CAE /* CoreServices.framework */; };
+		A9ECCF4C14829C02002C5CAE /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9ECCF4714829C02002C5CAE /* AudioUnit.framework */; };
+		A9ECCF4D14829C02002C5CAE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9ECCF4814829C02002C5CAE /* AudioToolbox.framework */; };
+		A9ECCF4F14829C02002C5CAE /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9ECCF4A14829C02002C5CAE /* CoreMIDI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9ECCF2A14829BE4002C5CAE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A98464621550941B0023389F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A9A8A69B1528F404004AD360 /* GregProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GregProcessor.cpp; sourceTree = "<group>"; };
+		A9A8A69E1528F40B004AD360 /* GregProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GregProcessor.h; sourceTree = "<group>"; };
+		A9A8A69F1528F684004AD360 /* Output.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Output.cpp; sourceTree = "<group>"; };
+		A9A8A6A11528FCFE004AD360 /* Processor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Processor.cpp; sourceTree = "<group>"; };
+		A9CD6A39152AAE8F00F0222A /* Markov.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Markov.h; sourceTree = "<group>"; };
+		A9CD6A3B152AAF9800F0222A /* Markov.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Markov.cpp; sourceTree = "<group>"; };
+		A9ECCF2C14829BE4002C5CAE /* Greg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Greg; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9ECCF3014829BE4002C5CAE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A9ECCF3914829BF6002C5CAE /* MIDIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIConstants.h; sourceTree = "<group>"; };
+		A9ECCF3A14829BF6002C5CAE /* MIDIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIUtils.h; sourceTree = "<group>"; };
+		A9ECCF3B14829BF6002C5CAE /* MIDIUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MIDIUtils.cpp; sourceTree = "<group>"; };
+		A9ECCF3D14829BF6002C5CAE /* MIDIInput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MIDIInput.cpp; sourceTree = "<group>"; };
+		A9ECCF3E14829BF6002C5CAE /* EchoProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EchoProcessor.h; sourceTree = "<group>"; };
+		A9ECCF3F14829BF6002C5CAE /* EchoProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EchoProcessor.cpp; sourceTree = "<group>"; };
+		A9ECCF4014829BF6002C5CAE /* MIDIOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIOutput.h; sourceTree = "<group>"; };
+		A9ECCF4114829BF6002C5CAE /* MIDIOutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MIDIOutput.cpp; sourceTree = "<group>"; };
+		A9ECCF4614829C02002C5CAE /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		A9ECCF4714829C02002C5CAE /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		A9ECCF4814829C02002C5CAE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A9ECCF4A14829C02002C5CAE /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		A9ECCF5414829D96002C5CAE /* Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Input.h; sourceTree = "<group>"; };
+		A9ECCF5514830EBC002C5CAE /* Output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Output.h; sourceTree = "<group>"; };
+		A9ECCF561483207D002C5CAE /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		A9EE2AD71507AFDC00599874 /* Scale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scale.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9ECCF2914829BE4002C5CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98464631550941B0023389F /* CoreFoundation.framework in Frameworks */,
+				A9ECCF4B14829C02002C5CAE /* CoreServices.framework in Frameworks */,
+				A9ECCF4C14829C02002C5CAE /* AudioUnit.framework in Frameworks */,
+				A9ECCF4D14829C02002C5CAE /* AudioToolbox.framework in Frameworks */,
+				A9ECCF4F14829C02002C5CAE /* CoreMIDI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9ECCF2114829BE4002C5CAE = {
+			isa = PBXGroup;
+			children = (
+				A98464621550941B0023389F /* CoreFoundation.framework */,
+				A9ECCF4614829C02002C5CAE /* CoreServices.framework */,
+				A9ECCF4714829C02002C5CAE /* AudioUnit.framework */,
+				A9ECCF4814829C02002C5CAE /* AudioToolbox.framework */,
+				A9ECCF4A14829C02002C5CAE /* CoreMIDI.framework */,
+				A9ECCF2F14829BE4002C5CAE /* Greg */,
+				A9ECCF2D14829BE4002C5CAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9ECCF2D14829BE4002C5CAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9ECCF2C14829BE4002C5CAE /* Greg */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9ECCF2F14829BE4002C5CAE /* Greg */ = {
+			isa = PBXGroup;
+			children = (
+				A9ECCF3014829BE4002C5CAE /* main.cpp */,
+				A9ECCF3914829BF6002C5CAE /* MIDIConstants.h */,
+				A9ECCF3A14829BF6002C5CAE /* MIDIUtils.h */,
+				A9ECCF3B14829BF6002C5CAE /* MIDIUtils.cpp */,
+				A9EE2AD71507AFDC00599874 /* Scale.h */,
+				A9CD6A39152AAE8F00F0222A /* Markov.h */,
+				A9CD6A3B152AAF9800F0222A /* Markov.cpp */,
+				A9ECCF5414829D96002C5CAE /* Input.h */,
+				A9ECCF3D14829BF6002C5CAE /* MIDIInput.cpp */,
+				A9ECCF561483207D002C5CAE /* Processor.h */,
+				A9A8A6A11528FCFE004AD360 /* Processor.cpp */,
+				A9ECCF3E14829BF6002C5CAE /* EchoProcessor.h */,
+				A9ECCF3F14829BF6002C5CAE /* EchoProcessor.cpp */,
+				A9A8A69E1528F40B004AD360 /* GregProcessor.h */,
+				A9A8A69B1528F404004AD360 /* GregProcessor.cpp */,
+				A9ECCF5514830EBC002C5CAE /* Output.h */,
+				A9A8A69F1528F684004AD360 /* Output.cpp */,
+				A9ECCF4014829BF6002C5CAE /* MIDIOutput.h */,
+				A9ECCF4114829BF6002C5CAE /* MIDIOutput.cpp */,
+			);
+			path = Greg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9ECCF2B14829BE4002C5CAE /* Greg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9ECCF3614829BE4002C5CAE /* Build configuration list for PBXNativeTarget "Greg" */;
+			buildPhases = (
+				A9ECCF2814829BE4002C5CAE /* Sources */,
+				A9ECCF2914829BE4002C5CAE /* Frameworks */,
+				A9ECCF2A14829BE4002C5CAE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Greg;
+			productName = Greg;
+			productReference = A9ECCF2C14829BE4002C5CAE /* Greg */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9ECCF2314829BE4002C5CAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Bill Meltsner";
+			};
+			buildConfigurationList = A9ECCF2614829BE4002C5CAE /* Build configuration list for PBXProject "Greg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9ECCF2114829BE4002C5CAE;
+			productRefGroup = A9ECCF2D14829BE4002C5CAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9ECCF2B14829BE4002C5CAE /* Greg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9ECCF2814829BE4002C5CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ECCF3114829BE4002C5CAE /* main.cpp in Sources */,
+				A9ECCF4214829BF6002C5CAE /* MIDIUtils.cpp in Sources */,
+				A9ECCF4314829BF6002C5CAE /* MIDIInput.cpp in Sources */,
+				A9ECCF4514829BF6002C5CAE /* MIDIOutput.cpp in Sources */,
+				A9A8A6A31528FD3F004AD360 /* EchoProcessor.cpp in Sources */,
+				A9A8A69C1528F404004AD360 /* GregProcessor.cpp in Sources */,
+				A9A8A6A01528F684004AD360 /* Output.cpp in Sources */,
+				A9A8A6A21528FCFE004AD360 /* Processor.cpp in Sources */,
+				A9CD6A3C152AAF9800F0222A /* Markov.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A9ECCF3414829BE4002C5CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A9ECCF3514829BE4002C5CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A9ECCF3714829BE4002C5CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9ECCF3814829BE4002C5CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9ECCF2614829BE4002C5CAE /* Build configuration list for PBXProject "Greg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9ECCF3414829BE4002C5CAE /* Debug */,
+				A9ECCF3514829BE4002C5CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9ECCF3614829BE4002C5CAE /* Build configuration list for PBXNativeTarget "Greg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9ECCF3714829BE4002C5CAE /* Debug */,
+				A9ECCF3814829BE4002C5CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9ECCF2314829BE4002C5CAE /* Project object */;
+}
